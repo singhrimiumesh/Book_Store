@@ -1,0 +1,51 @@
+.banner .swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+.banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .banner .swiper-slide:nth-child(1n) {
+    background-image: url(https://m.media-amazon.com/images/I/615wV+jV-fL._SL1200_.jpg);
+    background-size: 240px 320px;
+  }
+  
+  .banner .swiper-slide:nth-child(2n) {
+    background-image: url(https://books.google.co.in/books/publisher/content?id=fIOWDwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1zylkXBCR4_Ef08cNTgwkm4Yjdtg&w=1280);
+    background-size: 240px 320px;
+  }
+  
+  .banner .swiper-slide:nth-child(3n) {
+    background-image: url(https://books.google.co.in/books/publisher/content?id=a9q5AwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U3FCsfzBQGG6mHluA6isu3tnO2tPw&w=1280);
+    background-size: 240px 320px;
+  }
+  
+  .banner .swiper-slide:nth-child(4n) {
+    background-image: url(https://books.google.co.in/books/publisher/content?id=wTArDAAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U3cI4FF-LiceSIHsajk8lNNZZNhxw&w=1280);
+    background-size: 240px 320px;
+  }
+  
+  .banner .swiper-slide:nth-child(5n) {
+    background-image: url(https://books.google.co.in/books/publisher/content?id=9qm-DwAAQBAJ&pg=PA1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U0JIBi9pmyRu4Tm1ap8pD7ZrrPFIw&w=1280);
+    background-size: 240px 320px;
+  }
+  
+  .banner .swiper-slide:nth-child(6n) {
+    background-image: url(https://books.google.co.in/books/content?id=aue6GieaHJAC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U3B6xRJylqY4hTfH_J8dPEqeHMRMQ&w=1280);
+    background-size: 240px 320px;
+  }
+  
+  .banner .swiper-slide:nth-child(7n) {
+    background-image: url(https://books.google.co.in/books/content?id=HHfP4M_SW6AC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U22wURHdp5UeSXiUTiJtHJewUaJdQ&w=1280);
+    background-size: 240px 320px;
+  }
+
+  

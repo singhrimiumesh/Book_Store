@@ -1,6 +1,12 @@
+import Banner from "../components/Banner"
+import FavoriteBooks from "./FavoriteBooks"
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="">
+      <Banner/>
+      <FavoriteBooks/>
+    </div>
   )
 }
 
