@@ -13,27 +13,33 @@ const FavBook = () => {
           Find Your Favorite <span className="text-blue-700">Book Here!</span>
         </h2>
         <p className="mb-10 text-lg md:w-5/6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ea
-          officiis esse repudiandae reiciendis id! Blanditiis, molestiae sit
-          iusto id voluptatem cumque perspiciatis nam minus deleniti repellendus
-          eius cupiditate distinctio expedita autem dicta dignissimos corrupti
-          ab explicabo labore quos provident. 
+          Embark on a thrilling literary journey with a diverse collection of
+          captivating books across genres. Join our vibrant community of avid
+          readers to connect, discuss, and forge lasting literary connections.
+          Register now for exclusive content and participate in engaging
+          discussions. Unlock a world of knowledge with our extensive PDF
+          downloads, providing access to educational resources that enrich your
+          understanding and skills. Your next adventure awaits!
         </p>
         <div className="flex flex-col sm:flex-row justify-between gap-6 md:w-3/4 my-14">
-            <div>
-                <h3 className="text-3xl font-bold">Numerous</h3>
-                <p className="text-base">Book Listing</p>
-            </div>
-            <div>
-                <h3 className="text-3xl font-bold">Abundant</h3>
-                <p className="text-base">Register Users</p>
-            </div>
-            <div>
-                <h3 className="text-3xl font-bold">Plentiful</h3>
-                <p className="text-base">PDF Download</p>
-            </div>
+          <div>
+            <h3 className="text-3xl font-bold">Numerous</h3>
+            <p className="text-base">Book Listing</p>
+          </div>
+          <div>
+            <h3 className="text-3xl font-bold">Abundant</h3>
+            <p className="text-base">Register Users</p>
+          </div>
+          <div>
+            <h3 className="text-3xl font-bold">Plentiful</h3>
+            <p className="text-base">PDF Download</p>
+          </div>
         </div>
-        <Link to="/shop" className="mt-12 block"><button className="bg-blue-700 text-white font-semibold px-5 py-2 rounded hover:bg-black transition-all duration-300">Explore More</button></Link>
+        <Link to="/shop" className="mt-12 block">
+          <button className="bg-blue-700 text-white font-semibold px-5 py-2 rounded hover:bg-black transition-all duration-300">
+            Explore More
+          </button>
+        </Link>
       </div>
     </div>
   );
