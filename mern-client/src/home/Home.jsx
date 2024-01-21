@@ -1,11 +1,14 @@
 import Banner from "../components/Banner"
-import FavoriteBooks from "./FavoriteBooks"
+import BestSellerBooks from "./BestSellerBooks"
+import FavBook from "./FavBook"
 
 const Home = () => {
   return (
     <div className="">
       <Banner/>
-      <FavoriteBooks/>
+      <BestSellerBooks/>
+      <FavBook/>
+      
     </div>
   )
 }

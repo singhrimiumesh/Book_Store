@@ -11,6 +11,7 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import {Link} from "react-router-dom";
+import { IoMdBook } from "react-icons/io"
 
 const BookCards = ({headline, books}) => {
   return (
@@ -18,7 +19,7 @@ const BookCards = ({headline, books}) => {
         <h2 className="text-5xl text-center font-bold text-black my-5">{headline}</h2>
     
     {/* cards */}
-    <div>
+    <div className='mt-12'>
     <Swiper
         slidesPerView={1}
         spaceBetween={10}
@@ -45,25 +46,24 @@ const BookCards = ({headline, books}) => {
         
         {
           books.map(book => <SwiperSlide key={book._id}>
-            <Link to="/">
-              <div>
+            <Link to={`/book/${book._id}`}>
+              <div className='relative'>
                 <img src={book.imageURL} alt=""/>
+              <div className='absolute top-3 right-3 bg-blue-600 hover:bg-black p-2 rounded'>
+                <IoMdBook className='w-4 h-4 text-white'/>
+              </div>
               </div>
               <div>
               <div>
               <h3>{book.bookTitle}</h3>
                 <p>{book.authorName}</p>
               </div>
+              <div>
               <p>$7</p>
-              {/* stoped here  
-              ffgfg  r erg eg g 
-                ge e  ggtggg  */}
+              </div>
+              
 
-
-
-
-
-                
+ 
               </div>
             </Link>
           </SwiperSlide>)
