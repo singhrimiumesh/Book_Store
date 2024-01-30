@@ -6,6 +6,7 @@ import Home from "../home/Home";
 import Shop from "../shop/Shop";
 import About from "../components/About";
 import Blog from "../components/Blog";
+import Signup from "../components/Signup";
 import SingleBook from "../shop/SingleBook";
 import DashboardLayout from "../dashboard/DashboardLayout";
 import Dashboard from "../dashboard/Dashboard";
@@ -62,6 +63,10 @@ import EditBooks from "../dashboard/EditBooks";
         loader: ({params})=> fetch(`http://localhost:5000/book/${params.id}`)
       }
     ]
+    },
+    {
+      path: "sign-up",
+      element: <Signup/>
     }
   ]);
 
