@@ -57,9 +57,7 @@ const BookCards = ({headline, books}) => {
               <h3 className='font-bold'>{book.bookTitle}</h3>
                 <p>{book.authorName}</p>
               </div>
-              <div>
-              {/* <p>$7</p> */}
-              </div>
+              
               
 
  
