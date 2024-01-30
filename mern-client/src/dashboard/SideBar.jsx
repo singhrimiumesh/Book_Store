@@ -1,11 +1,14 @@
 import { Sidebar } from 'flowbite-react';
 import { HiArrowSmRight, HiChartPie, HiInbox, HiOutlineCloudUpload, HiShoppingBag, HiSupport, HiTable, HiUser, HiViewBoards } from 'react-icons/hi';
-import userImg from "../assets/Profile.jpg";
+import { AuthContext } from '../contects/AuthProvider';
+import { useContext } from 'react';
 const SideBar = () => {
+  const {user} = useContext(AuthContext);
+  console.log(user)
   return (
     <Sidebar aria-label="Sidebar with content separator example">
-    <Sidebar.Logo href="#" img={userImg} imgAlt="Flowbite logo">
-        Flowbite
+    <Sidebar.Logo href="/" img={user?.photoURL} imgAlt="User" className='w-12 h-16'>
+      {user?.displayName || "Username" }
       </Sidebar.Logo>
       <Sidebar.Items>
         <Sidebar.ItemGroup>
