@@ -1,5 +1,5 @@
 import { Sidebar } from 'flowbite-react';
-import { HiArrowSmRight, HiChartPie, HiInbox, HiOutlineCloudUpload, HiTable, HiSupport} from 'react-icons/hi';
+import { HiArrowSmRight, HiChartPie, HiInbox, HiOutlineCloudUpload, HiTable, HiSupport, HiArrowSmLeft} from 'react-icons/hi';
 import { AuthContext } from '../contects/AuthProvider';
 import { useContext } from 'react';
 const SideBar = () => {
@@ -12,6 +12,9 @@ const SideBar = () => {
       </Sidebar.Logo>
       <Sidebar.Items>
         <Sidebar.ItemGroup>
+        <Sidebar.Item href="/" icon={HiArrowSmLeft}>
+            Back
+          </Sidebar.Item>
           <Sidebar.Item href="/admin/dashboard" icon={HiChartPie}>
             Dashboard
           </Sidebar.Item>
