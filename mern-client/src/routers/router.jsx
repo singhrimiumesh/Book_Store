@@ -16,6 +16,7 @@ import EditBooks from "../dashboard/EditBooks";
 import Login from "../components/Login";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import Logout from "../components/Logout";
+import Donate from "../shop/donate";
 
   const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ import Logout from "../components/Logout";
         {
           path: "/shop",
           element: <Shop/>  
+        },
+        {
+          path: "/donate",
+          element: <Donate/>  
         },
         {
             path: "/about",

@@ -38,7 +38,8 @@ const Navbar = () => {
         {link: "Home", path: "/"},
         {link: "About", path: "/about"},
         {link: "BookHub", path: "/shop"},
-        {link: "Donate/Sell Your Book", path: "/admin/dashboard"},
+        {link: "Donate/Sell", path: "/donate"},
+        {link: "Upload E-Book", path: "/admin/dashboard"},
         {link: "Blog", path: "/blog"},
     ]
 
