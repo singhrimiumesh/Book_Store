@@ -20,7 +20,7 @@ const Shop = () => {
     <div className="mt-28 px-4 lg-px24">
       <h2 className="text-5xl font-bold text-center">All Books Here</h2>
 
-      <div className="grid gap-8 my-12 lg-grid-cols-4 sm:grid-cols-2 md:grid-cols-4 grid-cols-1">
+      <div className="grid gap-4 my-2 lg:grid-cols-5 sm:grid-cols-2 md:grid-cols-3 grid-cols-1 margin-bottom: 20px">
         {books.map((book) => 
           <Card key={book._id}>
             <Link to={`/book/${book._id}`} className="flex flex-col">

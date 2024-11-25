@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const EditBooks = () => {
   const {id} = useParams();
-  const {bookTitle, authorName, imageURL, category, bookDescription, bookPDFURL} = useLoaderData();
+  const {bookTitle, authorName, imageURL, bookDescription, bookPDFURL} = useLoaderData();
   
   const bookCategories = [
     "Programming",
@@ -16,6 +16,7 @@ const EditBooks = () => {
     "OS",
     "AI",
     "ML",
+    "DS",
     "UX/UI",
     "Cybersecurity",
     "Mathematics",
